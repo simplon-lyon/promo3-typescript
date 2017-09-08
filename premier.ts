@@ -1,8 +1,8 @@
 var maVariable = "bloup";
 
-let varNumber:number = 100;
+let varNumber: number = 100;
 
-let tableauString:string[] = [
+let tableauString: string[] = [
     "ga",
     "zo",
     "bu"
@@ -10,6 +10,6 @@ let tableauString:string[] = [
 
 
 
-function maFonction(arg:string): number {
+function maFonction(arg: string): number {
     return arg.length;
 }
