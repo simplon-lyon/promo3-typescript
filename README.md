@@ -19,8 +19,8 @@ Faire une API avec express et typescript pour gérer une todo list
     - Définir les routes accessible sur l'API, une en get pour lister, une en post pour ajouter et une en delete pour supprimer
     - Utiliser les méthodes de la classe Todo à l'intérieur des routes
 
-/!\ NE PAS OUBLIER DE COMPILER LE TYPESCRIPT S'IL N'EST PAS EN WATCH
-/!\ LANCER BIEN dist/main.js ET PAS main.ts AVEC NODE ---- NODE NE COMPREND PAS LE TYPESCRIPT
+> NE PAS OUBLIER DE COMPILER LE TYPESCRIPT S'IL N'EST PAS EN WATCH
+> LANCER BIEN `dist/main.js` ET PAS `main.ts` AVEC NODE ---- NODE NE COMPREND PAS LE TYPESCRIPT
 
 ## TP Typescript Utilisateur
 
