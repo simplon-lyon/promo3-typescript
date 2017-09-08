@@ -2,9 +2,13 @@ import {User} from './user';
 
 export class UserList {
     users: User[];
+
+    constructor() {
+        this.users = [];
+    }
     
     add(u: User) {
-        this.users.push(u);
+        //this.users.push(u);
     }
 
     del(name: string) {
@@ -24,12 +28,3 @@ export class UserList {
         return null;
     }
 }
-
-let list = new UserList();
-list.add(new User("toto", "toto"));
-list.add(new User("titi", "titi"));
-console.log(list);
-list.del("toto");
-console.log(list);
-let u = list.auth("titi", "titi");
-console.log(u);
