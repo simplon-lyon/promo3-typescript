@@ -1,7 +1,9 @@
 
 import { AnimalCompagnie } from "./animal-compagnie";
+import { Savable } from "./savable";
 
-export class Chien implements AnimalCompagnie {
+export class Chien implements AnimalCompagnie, Savable {
+    
     nom: string;
     race:string;
 
@@ -15,7 +17,7 @@ export class Chien implements AnimalCompagnie {
     } 
 
     seGratter():void {
-        console.log('le chien se gratte');
+        console.log('le chien ' +this.nom+' se gratte');
     }
     
     manger(aliment: string): void {
@@ -23,5 +25,9 @@ export class Chien implements AnimalCompagnie {
     }
     emettreSon(): string {
         return 'ouaf ouaf ouaf';
+    }
+
+    getInfos(): string {
+        return 'Chien:nom='+this.nom+';race='+this.race;
     }
 }
