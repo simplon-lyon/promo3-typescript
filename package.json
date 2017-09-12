@@ -19,6 +19,7 @@
     "homepage": "https://github.com/simplon-lyon/promo3-typescript#readme",
     "dependencies": {
         "body-parser": "^1.17.2",
+        "cors": "^2.8.4",
         "express": "^4.15.4"
     },
     "devDependencies": {
